@@ -1,5 +1,7 @@
 # aero.minova.freetables
 
+Dieses Repository soll das Benutzerhandbuch für die generelle Nutzung von Free Tables enthalten.
+
 ## Abrechnungsdaten
 
 Die Abrechnungstabelle befindet sich in jedem Issue Template und muss nicht kopiert werden. 
