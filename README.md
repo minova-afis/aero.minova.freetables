@@ -1,7 +1,5 @@
 # aero.minova.freetables
 
-Dieses Repository dient als Grundlage für alle Zukünftigen Repositories, die kein App Projekt sind. Diese Vorlage soll die Repositories vereinheitlichen. Dies soll durch folgende Standards erreicht werden:
-
 ## Abrechnungsdaten
 
 Die Abrechnungstabelle befindet sich in jedem Issue Template und muss nicht kopiert werden. 
