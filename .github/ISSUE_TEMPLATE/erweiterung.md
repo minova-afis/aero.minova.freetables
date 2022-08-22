@@ -15,7 +15,7 @@ assignees: ''
 
 == Abrechnung SIS == 
 ||Feld||Wert||
-||Kunde||XXX||
-||Kontrakt||XXX||
-||Projekt||XXX||
+||Kunde||MIN||
+||Kontrakt||2022-LANFER-TTA||
+||Projekt||TTA||
 ||Aufwand||ZPROGRAM||
