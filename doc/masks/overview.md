@@ -1,14 +1,14 @@
 # Masken
 
-Als Maske wird die Oberfläche bezeichnet, mit der der Benutzer interagiert. Sie dient vor allem der Erfassung von Daten. Dabei können eine vielzahl von Daten dargestellt werden. Zum Beispiel Stammdaten, Bewegungsdaten oder Abrechnungsdaten. Eine Maske kann aber auch für die Auswertung genutzt werden. So können Statistiken oder Berichte erstellt werden. 
+Als Maske wird die Oberfläche bezeichnet, mit der der Benutzer interagiert. Sie dient vor allem der Erfassung von Daten. Dabei können eine vielzahl von Daten dargestellt werden. Zum Beispiel Stammdaten, Bewegungsdaten oder Abrechnungsdaten. Eine Maske ist aber auch für die Auswertung nutzbar. So können Statistiken oder Berichte erstellt werden. 
 
 Aufgeteilt ist eine Maske in drei Bereiche. 
 
 #### 1. Detailbereich
 
-Das Detail ist der Fomular Bereich. In diesem werden die konkreten Werte in entsprechende Felder eingetragen. Die Felder befinden sich in mehreren [Sektionen](), die immer einen bestimmten Thematischen Abschnitt behandeln. 
+Das Detail ist der Fomularbereich. In diesem werden die konkreten Werte in entsprechende Felder eingetragen. Die Felder befinden sich in mehreren [Sektionen](), die immer einen bestimmten Thematischen Abschnitt behandeln. 
 
-Im unteren Beispiel kann ein Kunde erfasst werden. Der Detailbereich teilt sich hierbei in die [Kopfdaten]() und die Addresse auf.
+Im unteren Beispiel lässt sich ein Kunde erfassen. Der Detailbereich teilt sich hierbei in die Sektionen [Kopfdaten]() und Addresse auf.
 
 ![](img/customer_example_detail_marked.png)
 
@@ -22,6 +22,6 @@ Die letzten beiden Spalten sind immer "Letzte Änderung" und "Letzter Benutzer".
 
 #### 3. Suchebereich
 
-Um die Ausgabe im Index einzugränzen oder zu filtern, wird der Suchbereich verwendet. Dieser enthält eine identische Tabelle zum Index. Um zu filtern können nun Werte in die Spalten eingegeben werden. Bei der nächsten Aktualisierung des Index sind nun nur noch Datensätze sichtbar, die die passenden Werte aus der Suche in den entsprechenden Spalten enthalten. Die Eingabe der Werte ist durch spezielle [Platzhalter und Kürzel]() unterstütztbar.
+Um die Ausgabe im Index einzugränzen oder zu filtern, wird der Suchbereich genutzt. Dieser enthält eine identische Tabelle zum Index. Für die Filterung können nun Werte in die Spalten eingegeben werden. Bei der nächsten Aktualisierung des Index, sind nun nur noch Datensätze sichtbar, die die passenden Werte aus der Suche in den entsprechenden Spalten enthalten. Die Eingabe der Werte lässt sich durch spezielle [Platzhalter und Kürzel]() unterstützen.
 
 ![](img/customer_example_search_marked.png)
