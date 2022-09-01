@@ -1,6 +1,6 @@
 # Masken
 
-Als Maske wird die Oberfläche bezeichnet, mit der der Benutzer interagiert. Sie dient vor allem der Erfassung und Anzeige von Daten. Zum Beispiel Stammdaten, Bewegungsdaten oder Abrechnungsdaten. Eine Maske ist aber auch für die Auswertung nutzbar. So können Statistiken oder Berichte erstellt werden. 
+Als Maske wird die Oberfläche bezeichnet, mit der der Benutzer interagiert. Sie dient vor allem dem erfassen und anzeigen von Daten. Zum Beispiel Stammdaten, Bewegungsdaten oder Abrechnungsdaten. Eine Maske ist aber auch für die Auswertung nutzbar. So können Statistiken oder Berichte erstellt werden. 
 
 Aufgeteilt ist eine Maske in drei Bereiche. Im folgenden Beispiel handelt es sich um Kundenstammdaten.
 
