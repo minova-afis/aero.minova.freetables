@@ -1,12 +1,12 @@
 # Masken
 
-Als Maske wird die Oberfläche bezeichnet, mit der der Benutzer interagiert. Sie dient vor allem dem erfassen und anzeigen von Daten. Zum Beispiel Stammdaten, Bewegungsdaten oder Abrechnungsdaten. Eine Maske ist aber auch für die Auswertung nutzbar. So können Statistiken oder Berichte erstellt werden. 
+Als Maske wird die Oberfläche bezeichnet, mit der der Benutzer interagiert. Sie dient vor allem dem Erfassen und Anzeigen von Daten. Zum Beispiel Stammdaten, Bewegungsdaten oder Abrechnungsdaten. Eine Maske ist aber auch für die Auswertung nutzbar. So können Statistiken oder Berichte erstellt werden. 
 
 Aufgeteilt ist eine Maske in drei Bereiche. Im folgenden Beispiel handelt es sich um Kundenstammdaten.
 
 #### 1. Suchbereich
 
-Um die Ausgabe im Index einzugrenzen oder zu filtern, wird der Suchbereich genutzt. Dieser enthält eine identische Tabelle zum jeweiligen Index. Für die Filterung können nun Werte in die Spalten eingegeben werden. Bei der nächsten Aktualisierung des Index, sind nun nur noch Datensätze sichtbar, die die passenden Werte aus der Suche in den entsprechenden Spalten enthalten. Die Eingabe der Werte lässt sich durch spezielle [Platzhalter und Kürzel]() unterstützen. Die direkte Anzeige der Daten ohne die Eingabe eines oder mehrere Suchkriterien hat zur Folge, dass der komplette Datenbestand geladen wird.
+Um die Ausgabe im Index einzugrenzen oder zu filtern, wird der Suchbereich genutzt. Dieser enthält eine identische Tabelle zum jeweiligen Index. Für die Filterung können nun Werte in die Spalten eingegeben werden. Bei der nächsten Aktualisierung des Index, sind nur noch Datensätze sichtbar, die die passenden Werte aus der Suche in den entsprechenden Spalten enthalten. Die Eingabe der Werte lässt sich durch spezielle [Platzhalter und Kürzel]() unterstützen. Die direkte Anzeige der Daten ohne die Eingabe eines oder mehrere Suchkriterien hat zur Folge, dass der komplette Datenbestand geladen wird.
 
 ![](img/customer_example_search_marked.png)
 
@@ -21,7 +21,7 @@ Die letzten beiden Spalten jeder Maske entsprechen "Letzte Änderung" und "Letzt
 
 #### 3. Detailbereich
 
-Der Detailbereich entspricht einem Fomular. In diesem werden Werte in entsprechende Felder eingetragen. Die Felder befinden sich in mehreren [Sektionen](), die immer einen bestimmten thematischen Abschnitt behandeln. 
+Der Detailbereich entspricht einem Fomular. In diesem werden Werte in entsprechende Felder eingetragen. Die Felder befinden sich in mehreren [Sektionen](sections.md), die immer einen bestimmten thematischen Abschnitt behandeln. 
 
 Im unteren Beispiel lässt sich ein Kunde erfassen. Der Detailbereich teilt sich hierbei in die Sektionen [Kopfdaten]() und Addresse auf.
 Zur Erfassung eines Datensatzes müssen mindestens alle Pflichtfelder gefüllt werden. Obligatorische Felder sind orange, optionale Felder sind weiß hinterlegt.
