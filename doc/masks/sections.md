@@ -34,7 +34,7 @@ Zugeklappte Sektion Adresse
 
 Die Tabelle kann sowohl als Element in einer Sektion oder eigenständig genutzt werden. Die Funktionsweise unterscheidet sich bei beiden Arten nicht. Die Tabelle hat eine eigene Schaltflächen Leiste. Diese enthält Funktionen exklusive für die Tabelle. Die Schaltflächen sind unter [Tabellen Schaltflächen](/doc/buttons/grid_toolbar_buttons.md) genauer beschrieben.
 
-**Beispiel**<br>
+**1. Beispiel**<br>
 Leere Tabelle Sonderausstattung in Stammdaten
 
 ![](img/customer_example_detail_grid_empty.png)
@@ -47,3 +47,5 @@ Ausgefüllte Tabelle mit Beispieldaten
 #### Vorschau
 
 Eine Vorschau Sektion wird immer in Verbindung mit einer Tabelle genutzt. Sie wird nur für die Darstellung des ausgewählten Elements in der Tabelle verwendet. Innerhalb der Sektion können keine anderen Felder angezeigt werden.
+
+![](img/section_browser_example.png)
