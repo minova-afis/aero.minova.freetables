@@ -17,7 +17,7 @@ Mit diesen Schatflächen können alle Gruppen im Index aus- oder zugeklappt werd
 ![](img/index_toolbar_buttons_groups_marked.png)
 
 Nach Tank gruppierte Ausgabe\
-Gruppen offen &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Gruppen geschlossen
+Gruppen offen &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Gruppen geschlossen
 
 ![](img/index_groups_open.png) ![](img/index_groups_closed.png)
 
