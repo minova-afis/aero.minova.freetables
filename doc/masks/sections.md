@@ -18,7 +18,7 @@ Auf die Kopfdaten können nun entweder eine weitere normale [Sektion](#sektion),
 
 #### Sektion
 
-Die normale Sektion ist so aufgebaut wie die Kopfdaten und enthält verschiedene Felder, Auswahlboxen und Tabellen. Der einzige Unterschied liegt darin, dass die normale Sektion auf- und zuklappbar ist. 
+Die normale Sektion ist so aufgebaut wie die Kopfdaten und enthält verschiedene Felder, Auswahlboxen und Tabellen. Der einzige Unterschied liegt darin, dass die normale Sektion auf- und zuklappbar ist.
 
 **Beispiel**<br>
 Adresse für den Kunden MINOVA
@@ -45,3 +45,5 @@ Ausgefüllte Tabelle mit Beispieldaten
 ![](img/customer_example_detail_grid_filled.png)
 
 #### Vorschau
+
+Eine Vorschau Sektion wird immer in Verbindung mit einer Tabelle genutzt. Sie wird nur für die Darstellung des ausgewählten Elements in der Tabelle verwendet. Innerhalb der Sektion können keine anderen Felder angezeigt werden.
