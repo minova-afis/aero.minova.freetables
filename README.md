@@ -9,7 +9,7 @@ Die Abrechnungstabelle befindet sich in jedem Issue Template und muss nicht kopi
 == Abrechnung SIS == <br>
 ||Feld||Wert||<br>
 ||Kunde||MIN||<br>
-||Kontrakt||2022-LANFER-TTA||<br>
+||Kontrakt||2022-MIN-FREETABLES||<br>
 ||Projekt||TTA||<br>
 
 
