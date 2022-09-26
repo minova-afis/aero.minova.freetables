@@ -40,7 +40,7 @@ Diese Schaltfläche setzt den Abschnitt, in der die Tabelle sich befindet, an da
 
 ## Spezielle Schaltflächen
 
-Für weitere Funktionalitäten können zusätzliche Schaltflächen definiert werden. Diese positionieren sich zwischen die Schaltflächen "[Zeilen Löschen](#zeile-löschen)" und "[Höhe und angeziegte Anzahl an Zeilen anpassen](#höhe-und-angeziegte-anzahl-an-zeilen-anpassen)".
+Für weitere Funktionalitäten können zusätzliche Schaltflächen definiert werden. Diese positionieren sich zwischen die Schaltflächen "[Zeilen Löschen](#zeile-löschen)" und "[Höhe und angezeigte Anzahl an Zeilen anpassen](#höhe-und-angeziegte-anzahl-an-zeilen-anpassen)".
 
 Im unteren Beispiel sind für die Dateiverwaltung zwei zusätzliche schaltflächen diefiniert worden. Die erste ermöglicht das Hinzufügen von Datei. Die zweite Schaltfläche öffnet die ausgewählte Datei im standard Programm des Computers.
 
