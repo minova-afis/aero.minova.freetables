@@ -24,6 +24,6 @@ Die letzten beiden Spalten jeder Maske entsprechen "Letzte Änderung" und "Letzt
 Der Detailbereich entspricht einem Fomular. In diesem werden Werte in entsprechende Felder eingetragen. Die Felder befinden sich in mehreren [Sektionen](sections.md), die immer einen bestimmten thematischen Abschnitt behandeln. 
 
 Im unteren Beispiel lässt sich ein Kunde erfassen. Der Detailbereich teilt sich hierbei in die Sektionen [Kopfdaten]() und Addresse auf.
-Zur Erfassung eines Datensatzes müssen mindestens alle Pflichtfelder gefüllt werden. Obligatorische Felder sind orange, optionale Felder sind weiß hinterlegt.
+Zur Erfassung eines Datensatzes müssen alle Pflichtfelder gefüllt werden. Obligatorische Felder sind orange, optionale Felder sind weiß hinterlegt.
 
 ![](img/customer_example_detail_marked.png)
