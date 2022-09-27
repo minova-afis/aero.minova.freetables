@@ -12,11 +12,11 @@ Enter Verhaltens in einem Handler, können wir diesen von verschiedenen Stellen 
 
 ## Preferences die das Tab- und Enter-Verhalten beeinflussen
 
-EnterSelectsFirstRequired (ESFR) - Genaue Beschreibung hier: xref:application.adoc#Nach dem Betätigen von ENTER wird das erste erforderliche Feld selektiert[EnterSelectsFirstRequired]
+EnterSelectsFirstRequired (ESFR) - Genaue Beschreibung hier: [EnterSelectsFirstRequired](https://github.com/minova-afis/aero.minova.rcp/wiki/Einstellungen-der-Anwendung-(Preferences)#nach-dem-betätigen-von-enter-wird-das-erste-erforderliche-feld-selektiert)
 
-LookupEnterSelectsNextRequired (LESNR) - Genaue Beschreibung hier: xref:application.adoc#Das Betätigen von Enter in einer Auswahlbox bewirkt die Übernahme des ausgewählten Wertes. Nach der Übernahme wird das nächste erforderliche Feld selektiert[LookupEnterSelectsNextRequired]
+LookupEnterSelectsNextRequired (LESNR) - Genaue Beschreibung hier: [LookupEnterSelectsNextRequired](https://github.com/minova-afis/aero.minova.rcp/wiki/Einstellungen-der-Anwendung-(Preferences)#das-betätigen-von-enter-in-einer-auswahlbox-selektiert-das-nächste-erforderliche-feld)
 
-SelectAllControls (SAC) - Genaue Beschreibung hier: xref:application.adoc#Aktiviert die Selektion aller möglichen Felder inkl. Registerkarte und Schaltflächen[SelectAllControls]
+SelectAllControls (SAC) - Genaue Beschreibung hier: [SelectAllControls](https://github.com/minova-afis/aero.minova.rcp/wiki/Einstellungen-der-Anwendung-(Preferences)#mit-tab-werden-alle-möglichen-felder-selektiert-inkl-registerkarte-und-schaltflächen)
 
 ## Tab-Verhalten
 
