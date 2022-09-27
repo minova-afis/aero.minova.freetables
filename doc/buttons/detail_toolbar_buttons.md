@@ -36,3 +36,11 @@ Wurde ein Datensatz im Index selektiert und im Detailbereich geändert, so könn
 Mit dieser Schaltfläche wird die Breite und Position des Detailbereichs an die Größe der Anwendung angepasst.
 
 ![](img/detail_toolbar_buttons_optimize_marked.png)
+
+## Eigene Schaltflächen
+
+Für weitere Funktionalitäten können zusätzliche Schaltflächen definiert werden. Diese positionieren sich ganz links in der Schaltflächen Leiste.
+
+Im unteren Beispiel ist eine zusätzliche Schaltfläche für das Erstellen von Formularen definiert worden.
+
+![](img/detail_toolbar_buttons_custom_marked.png)
