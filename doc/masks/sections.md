@@ -32,7 +32,7 @@ Zugeklappte Sektion Adresse
 
 #### Tabelle
 
-Die Tabelle kann sowohl als Element in einer Sektion oder eigenständig genutzt werden. Die Funktionsweise unterscheidet sich bei beiden Arten nicht. Die Tabelle hat eine eigene Schaltflächen Leiste. Diese enthält Funktionen exklusive für die Tabelle. Die Schaltflächen sind unter [Tabellen Schaltflächen](/doc/buttons/grid_toolbar_buttons.md) genauer beschrieben.
+Die Tabelle kann sowohl als Element in einer Sektion oder eigenständig genutzt werden. Die Funktionsweise unterscheidet sich bei beiden Arten nicht. Die Tabelle hat eine eigene Schaltflächenleiste. Diese enthält Funktionen exklusive für die Tabelle. Die Schaltflächen sind unter [Tabellen Schaltflächen](/doc/buttons/grid_toolbar_buttons.md) genauer beschrieben.
 
 **1. Beispiel**<br>
 Leere Tabelle Sonderausstattung in Stammdaten

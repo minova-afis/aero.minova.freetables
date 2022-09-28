@@ -1,6 +1,6 @@
-# Schaltflächen Leiste von Tabellen im Detailbereich
+# Schaltflächenleiste von Tabellen im Detailbereich
 
-Eine [Tabelle](/doc/masks/sections.md#tabelle) hat eine eigene Schaltflächen Leiste. Diese enthält Tebellenspezifische Schaltflächen. Sie wirken sich nur auf die Tabelle aus, in der sie sich befinden. Dabei wird zwischen standard und eigenen Schaltflächen unterschieden.
+Eine [Tabelle](/doc/masks/sections.md#tabelle) hat eine eigene Schaltflächenleiste. Diese enthält Tabellenspezifische Schaltflächen. Sie wirken sich nur auf die Tabelle aus, in der sie sich befinden. Dabei wird zwischen standard und eigenen Schaltflächen unterschieden.
 
 ## Standard Schaltflächen
 
@@ -42,6 +42,6 @@ Diese Schaltfläche setzt den Abschnitt, in der die Tabelle sich befindet, an da
 
 Für weitere Funktionalitäten können zusätzliche Schaltflächen definiert werden. Diese positionieren sich zwischen die Schaltflächen "[Zeilen Löschen](#zeile-löschen)" und "[Höhe und angezeigte Anzahl an Zeilen anpassen](#höhe-und-angeziegte-anzahl-an-zeilen-anpassen)".
 
-Im unteren Beispiel sind für die Dateiverwaltung zwei zusätzliche schaltflächen diefiniert worden. Die erste ermöglicht das Hinzufügen von Datei. Die zweite Schaltfläche öffnet die ausgewählte Datei im standard Programm des Computers.
+Im unteren Beispiel sind für die Dateiverwaltung zwei zusätzliche Schaltflächen diefiniert worden. Die erste ermöglicht das Hinzufügen von Dateien. Die zweite Schaltfläche öffnet die ausgewählte Datei im Standardprogramm des Computers.
 
 ![](img/grid_toolbar_buttons_custom_marked.png)

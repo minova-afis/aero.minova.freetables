@@ -1,12 +1,12 @@
 # Suchbereich Schaltflächen Leiste
 
-Der [Suchbereich](/masks/overview.md#1-suchbereich) hat eine Schaltflächen Leiste. Diese enthält suchenspezifische Schaltflächen. Sie wirken sich nur auf den Suchbereich aus, in dem sie sich befinden.
+Der [Suchbereich](/masks/overview.md#1-suchbereich) hat eine Schaltflächen Leiste. Diese enthält spezifische Schaltflächen für das Suchen. Sie wirken sich nur auf den Suchbereich aus, in dem sie sich befinden.
 
 ![](img/search_toolbar_buttons.png)
 
 #### Neue Suchkriterien
 
-Mit dieser Schaltfläche wird die Suche geleert und kann eine neue definiert werden.
+Mit dieser Schaltfläche wird die Suche geleert und es kann eine neue definiert werden.
 
 ![](img/search_toolbar_buttons_new_marked.png)
 
@@ -18,7 +18,7 @@ Mit dieser Schaltfläche wird die selektierte Zeile in der Suchtabelle gelöscht
 
 #### Suchkriterien speichern
 
-Mit dieser Schaltfläche können Suchkriterien gespeichert werden. Bei direkter Betätigung, werden die "DEFAULT" Suchkriterien überschrieben. Über den kleinen Pfeil ist es auch möglich die Suchkriterien unter einem bestimmten Namen zu speichern oder vorhande zu überschreiben. 
+Mit dieser Schaltfläche können Suchkriterien gespeichert werden. Bei direkter Betätigung, werden die "DEFAULT" Suchkriterien überschrieben. Über den kleinen Pfeil ist es auch möglich die Suchkriterien unter einem bestimmten Namen zu speichern oder vorhandene zu überschreiben. 
 
 ![](img/search_toolbar_buttons_save_searchcriteria_marked.png)
 

@@ -1,6 +1,6 @@
-# Indexbereich Schaltflächen Leiste
+# Indexbereich Schaltflächenleiste
 
-Der [Indexbereich](/masks/overview.md#2-indexbereich) hat eine Schaltflächen Leiste. Diese enthält indexspezifische Schaltflächen. Sie wirken sich nur auf den Indexbereich aus, in dem sie sich befinden.
+Der [Indexbereich](/masks/overview.md#2-indexbereich) hat eine Schaltflächenleiste. Diese enthält indexspezifische Schaltflächen. Sie wirken sich nur auf den Indexbereich aus, in dem sie sich befinden.
 
 ![](img/index_toolbar_buttons.png)
 
@@ -23,19 +23,19 @@ Gruppen offen &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 
 #### Alle exportieren
 
-Mit dieser Schaltfläche können die Daten im Index in eine Excel-datei exportiert werden.
+Mit dieser Schaltfläche können die Daten im Index in eine Exceldatei exportiert werden.
 
 ![](img/index_toolbar_buttons_export_marked.png)
 
 #### Spalten verwalten
 
-Mit dieser schaltfläche ist es möglich zu bestimmen, welche Spalten angezeigt werden.
+Mit dieser Schaltfläche ist es möglich zu bestimmen, welche Spalten angezeigt werden.
 
 ![](img/index_toolbar_buttons_column_administration_marked.png)
 
 #### Index drucken
 
-Mit dieser Schaltfläche kann die aktuelle Index Ausgabe ausgedruckt werden.
+Mit dieser Schaltfläche kann die aktuelle Index Ausgabe gedruckt werden.
 
 ![](img/index_toolbar_buttons_print_marked.png)
 
