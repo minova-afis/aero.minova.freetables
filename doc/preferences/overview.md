@@ -2,7 +2,7 @@
 
 # Einstellungen der Anwendung (Preferences)
 
-Dokumentation der Standard-Einstellungen für die Anwendung, die nicht spezifisch zu einer der Anwendungen (SIS, DISPO, TTA, AFIS) gehören. Die Werte der Preferences werden im Instance Scope des Workspaces gespeichert.
+Dokumentation der Standard-Einstellungen für die Anwendung, die nicht spezifisch zu einer der Anwendungen (SIS, DISPO, TTA, AFIS) gehören. 
 
 ## Anwendungs Tab
 
@@ -77,20 +77,19 @@ Die Einstellung ["Nach dem Betätigen von ENTER wird das erste erforderliche Fel
 
 #### Mit Tab werden alle möglichen Felder selektiert, inkl. Registerkarte und Schaltflächen
 
-Fall True (Default):
-Der Benutzer kann mit TAB in die Controls(Speichern, Neu, ...) navigieren.
+Ist diese Einstellung gesetzt, sind mit Tab alle Bereiche im Detailbereich erreichbar. Hierzu zählen zum Beispiel Schaltfläche und Registerkarten von Sektionen. 
 
 Position vor dem Betätigen von TAB:
 
-![](img/preferences_example_navigation_lookup_not_moved.png)
+![](img/preferences_example_navigation_controls_start.png)
 
-Position nach dem Betätigen von TAB mit SelectAllControls # true:
+Position nach dem Betätigen von TAB mit gesetzer Einstellung:
 
-![](img/preferences_example_navigation_lookup_not_moved.png)
+![](img/preferences_example_navigation_controls_true.png)
 
-Position nach dem Betätigen von TAB mit SelectAllControls # false:
+Position nach dem Betätigen von TAB  mit nicht gesetzer Einstellung:
 
-![](img/preferences_example_navigation_lookup_not_moved.png)
+![](img/preferences_example_navigation_controls_false.png)
 
 #### Mit Tab in Grids navigieren
 
@@ -100,6 +99,8 @@ Ausgewählt, wird die Navigation mit Tab zwischen den einzelnen Zellen im Grid e
 
 ### Allgemeines
 
+![](img/preferences_tab_design_general.png)
+
 #### Landessprache
 
 Bestimmt die Sprache der Anwendung.
@@ -108,40 +109,32 @@ Bestimmt die Sprache der Anwendung.
 
 Bestimmt das Land, das für das Locale genutzt wird.
 
-
 #### Zeitzone
 
 Bestimmt die Zeitzone des Anwenders. Der Server arbeitet immer in der Zeitzone UTC.
 
 ### Design-Einstellungen
 
+![](img/preferences_tab_design_font.png)
+
 #### Schrift- und Icongröße
 
 Bestimmt die Schrift- und Icongröße der Anwendung.
 
-Schriftgröße ist auf M gesetzt:
-
-image::https://github.com/minova-afis/aero.minova.rcp/blob/master/doc/images/fontsize_M.png[M,550,300]
-
-Schriftgröße ist auf L gesetzt:
-
-image::https://github.com/minova-afis/aero.minova.rcp/blob/master/doc/images/fontsize_L.png[L,550,300]
-
-
-
 ### Formatierung
+
+![](img/preferences_tab_design_format.png)
 
 #### Datumsformat
 
 Das Pattern bestimmt die Formatierung des Datums. Dabei bestimmt dieses nur die Darstellung des Datums, aber nicht die Reihenfolge von Tag, Monat und Jahr.
 
 **Beispiel:**
-|###
 | **Pattern** | **Eingabe** | **Ausgabe**
+|---|---|---|
 | dd.MM.y | 120220 | 12.02.2020
 | dd/MMM/yy | 120220 | 12/Feb./20
 | MM.dd.yyyy | 120220 | 12.02.2020
-|###
 
 Die Message im Text-Feld, stellt das Standard Pattern für das ausgewählte Locale da.
 
@@ -156,20 +149,22 @@ Das AM/PM wird in die entsprechende Sprache übersetzt.
 **Beachten: nicht M und m verwechseln!**
 
 **Beispiel:**
-|###
+
 | **Pattern** | **Eingabe** | **Ausgabe**
+|---|---|---|
 | hh:mm | 2345 | 11:45
 | hh:mm a | 2345 | 11:45 PM
 | HH:mm | 2345 | 23:45
 | H:mm | 726 | 7:26
 | HH:mm | 726 | 07:26
-|###
 
 Die Message im Text Feld, stellt das Standard Pattern für das ausgewählte Locale da.
 
 ## Erweitert Tab
 
 ### Allgemeines
+
+![](img/preferences_tab_advance_general.png)
 
 #### Index beim Öffnen der Maske automatisch laden
 
@@ -190,6 +185,8 @@ Die Entscheidung der Nutzer übertrifft aber die XBS-Einstellung.
 
 ### Index
 
+![](img/preferences_tab_advance_index.png)
+
 #### Auswahlverzögerung [ms]
 
 Bestimmt die Dauer, die bei einer Auswahl gewartet wird, bevor das Event gesendet wird. Zum Beispiel, wenn man mit den Pfeiltasten
@@ -202,12 +199,16 @@ Wenn mehr als diese Anzahl Datens\u00E4tze angefragt wird erscheint ein Dialog, 
 
 ### Timeout
 
+![](img/preferences_tab_advance_timeout.png)
+
 #### Zeit vor Timeout [s]
 
 Bestimmt die Dauer, bevor eine Anfrage an den Server als nicht erfolgreich angesehen wird.
 
 
 ### Experten Modus
+
+![](img/preferences_tab_advance_expertmode.png)
 
 #### Versteckte Abschnitte anzeigen
 
@@ -223,8 +224,9 @@ Für Änderungen an .mdi, .xbs, Übersetzungen und Bildern muss die Anwendung al
 
 Die Einstellung verlangsamt die Anwendung, da öfter Dateien heruntergeladen werden.
 
-
 ## Drucken Tab
+
+![](img/preferences_tab_print.png)
 
 ### Drucken
 
@@ -236,49 +238,17 @@ Erstellt beim Drucken neben einem PDF auch eine eine XML und XSL Datei im gleich
 
 Optimiert die Breiten der Spalten beim Drucken.
 
-Druckvorschau im Index mit OptimizeWidth # true:
-
-image::https://github.com/minova-afis/aero.minova.rcp/blob/master/doc/images/optimize_width_true.png[True,650,200]
-
-Druckvorschau im Index mit OptimizeWidth # false:
-
-image::https://github.com/minova-afis/aero.minova.rcp/blob/master/doc/images/optimize_width_false.png[False,650,200]
-
 #### Leere Spalten verbergen
 
 Verbirgt beim Drucken die leeren Spalten.
-
-Druckvorschau im Index mit HideEmptyCols # true:
-
-image::https://github.com/minova-afis/aero.minova.rcp/blob/master/doc/images/hide_empty_cols_true.png[True,650,200]
-
-Druckvorschau im Index mit HideEmptyCols # false:
-
-image::https://github.com/minova-afis/aero.minova.rcp/blob/master/doc/images/hide_empty_cols_false.png[False,650,200]
 
 #### Gruppenspalten verbergen
 
 Verbirgt beim Drucken die Spalten, die die Gruppen bilden.
 
-Druckvorschau im Index mit HideGroupCols # true:
-
-image::https://github.com/minova-afis/aero.minova.rcp/blob/master/doc/images/hide_group_cols_true.png[True,650,200]
-
-Druckvorschau im Index mit HideGroupCols # false:
-
-image::https://github.com/minova-afis/aero.minova.rcp/blob/master/doc/images/hide_group_cols_false.png[False,650,200]
-
 #### Suchkriterien verbergen
 
 Verbirgt beim Drucken die Suchkriterien.
-
-Druckvorschau im Index mit HideSearchCriterias # true:
-
-image::https://github.com/minova-afis/aero.minova.rcp/blob/master/doc/images/hide_search_criterias_true.png[True,650,200]
-
-Druckvorschau im Index mit HideSearchCriterias # false:
-
-image::https://github.com/minova-afis/aero.minova.rcp/blob/master/doc/images/hide_search_criterias_false.png[False,650,200]
 
 #### Interne Vorschau verbergen
 
