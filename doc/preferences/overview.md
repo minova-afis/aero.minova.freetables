@@ -17,7 +17,7 @@ Zeigt das eingestellte Standard Workspace an und ermöglicht dieses zurückzuset
 #### Aktueller Workspace-Ordner
 
 Zeigt den Pfad zum aktuellen Workspace-Ordner an, in dem alle vom CAS geladenen Dateien (unter anderem Masken, Bilder, Übersetzungen, ...) liegen.
-Außerdem werden in diesem Ordner die Einstellungen und logs gespeichert.
+Außerdem werden in diesem Ordner die Einstellungen und Logs gespeichert.
 
 Über den Knopf "Öffnen" wird dieser Ordner im Finder/Dateibrowser direkt geöffnet.
 
@@ -59,7 +59,7 @@ Position nach dem Betätigen von ENTER mit Einstellung ist nicht gesetzt:
 
 #### Das Betätigen von Enter in einer Auswahlbox selektiert das nächste erforderliche Feld
 
-Für Auswahlboxen(Feld mit kleinem Pfeil und einer Auswahl) kann ein gesondertes Verhalten eingestellt werden. So wird nach einer Auswahl mit Enter entweder das nächste Pflichtfeld selektiert oder der Benutzer belibt im Feld stehen.
+Für Auswahlboxen (Feld mit kleinem Pfeil und einer Auswahl) kann ein gesondertes Verhalten eingestellt werden. So wird nach einer Auswahl mit Enter entweder das nächste Pflichtfeld selektiert oder der Benutzer belibt im Feld stehen.
 
 Position vor dem Betätigen von ENTER in der Auswahlbox:
 
@@ -93,7 +93,7 @@ Position nach dem Betätigen von TAB  mit nicht gesetzer Einstellung:
 
 #### Mit Tab in Grids navigieren
 
-Ausgewählt, wird die Navigation mit Tab zwischen den einzelnen Zellen im Grid erlaubt. Nicht ausgewählt, wird mit Tab das Grid verlassen und das nächste Element selektiert.
+Ausgewählt wird die Navigation mit Tab zwischen den einzelnen Zellen im Grid erlaubt. Nicht ausgewählt wird mit Tab das Grid verlassen und das nächste Element selektiert.
 
 ## Darstellungs Tab
 
@@ -136,7 +136,7 @@ Das Pattern bestimmt die Formatierung des Datums. Dabei bestimmt dieses nur die 
 | dd/MMM/yy | 120220 | 12/Feb./20
 | MM.dd.yyyy | 120220 | 12.02.2020
 
-Die Message im Text-Feld, stellt das Standard Pattern für das ausgewählte Locale da.
+Die Message im Textfeld, stellt das Standard Pattern für das ausgewählte Locale da.
 
 #### Zeitformat
 
@@ -195,7 +195,7 @@ nicht geändert wurde.
 
 #### Anzahl Datensätze im Index
 
-Wenn mehr als diese Anzahl Datens\u00E4tze angefragt wird erscheint ein Dialog, um die Anzahl zu begrenzen.
+Wenn mehr als diese Anzahl Datensätze angefragt wird erscheint ein Dialog, um die Anzahl zu begrenzen.
 
 ### Timeout
 
@@ -213,7 +213,7 @@ Bestimmt die Dauer, bevor eine Anfrage an den Server als nicht erfolgreich anges
 #### Versteckte Abschnitte anzeigen
 
 Manche Abschnitte sind nur sichtbar, wenn diese Option gewählt ist.
-Das ein-/ausblenden wird über die Helper der einzelnen Masken geregelt.
+Das Ein-/Eusblenden wird über die Helper der einzelnen Masken geregelt.
 Ersatz für Teil des SuperUser Modus von Version 11.
 
 #### Dateien nicht lokal zwischenspeichern
@@ -232,7 +232,7 @@ Die Einstellung verlangsamt die Anwendung, da öfter Dateien heruntergeladen wer
 
 #### XML + XSL erstellen
 
-Erstellt beim Drucken neben einem PDF auch eine eine XML und XSL Datei im gleichen Ordner.
+Erstellt beim Drucken neben einem PDF auch eine XML und XSL Datei im gleichen Ordner.
 
 #### Breiten optimieren
 
