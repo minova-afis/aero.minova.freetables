@@ -14,4 +14,4 @@ Die ...
 
 ... [Schaltflächen](grid_toolbar_buttons.md) in einer Tabellen Sektion.
 
-Alle Schaltflächen folgen einem [Farbcode](colorcode.md). Dies trägt zur höheren Intutivität und Leichtigkeit der Anwendung bei. Benutzer sind so in der Lage schnell und einfach sich die verschiedenen Funktionalitäten der Schaltflächen zu merken.
+Alle Schaltflächen folgen einem [Farbcode](colorcode.md). Dies trägt zur höheren Intuitivität und Leichtigkeit der Anwendung bei. Benutzer sind so in der Lage schnell und einfach sich die verschiedenen Funktionalitäten der Schaltflächen zu merken.
