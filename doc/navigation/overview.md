@@ -2,13 +2,13 @@
 
 ## Tab- und Enter-Verhalten
 
-Bei der Umsetzung des Tab-Verhaltens verwenden wir das Verhalten, dass Eclipse schon standardmäßig implementiert hat. Das Enter-Verhalten wird in einem Handler mit Key Binding umgesetzt.
+Bei der Umsetzung des Tab-Verhaltens verwenden wir das Verhalten, das Eclipse schon standardmäßig implementiert hat. Das Enter-Verhalten wird in einem Handler mit Key Binding umgesetzt.
 Wir haben uns aus folgenden Gründen gegen den TraverseListener entschieden:
 
-- Wir möchten dem Benutzer ein für ihn gewohntes Verhalten bieten. Er soll sich nicht umgewöhnen und es trägt zu einer einfacheren Bedienung der Anwendung bei.
+- Wir möchten dem Benutzer ein für ihn gewohntes Verhalten bieten, er soll sich nicht umgewöhnen müssen und es trägt zu einer einfacheren Bedienung der Anwendung bei.
 - Es ist weniger Code für uns zum Pflegen. Der Code wird durch Eclipse aktuell gehalten.
 - Die Funktionalität des Verhaltens ist vielseitiger einsetzbar, da sie nicht an eine Klasse gebunden ist. Zum Beispiel, durch die Umsetzung des
-Enter Verhaltens in einem Handler, können wir diesen von verschiedenen Stellen in der Anwendung aufrufen.
+Enter-Verhaltens in einem Handler, können wir diesen von verschiedenen Stellen in der Anwendung aufrufen.
 
 ## Preferences die das Tab- und Enter-Verhalten beeinflussen
 
@@ -84,7 +84,7 @@ Standardverhalten für die Eingaben von Tab und Enter mit Modifier im Textfeld:
 |----|---|
 |Ctrl + Enter | Benutzer bleibt im Feld und es wird ein Zeilenumbruch erstellt
 |Alt + Enter | Benutzer bleibt im Feld und es wird ein Zeilenumbruch erstellt
-|Cmd + Enter | Benutzer bleibt im Feld es wird kein Zeilenumbruch erstellt, es kommt ein Fehlersound
+|Cmd + Enter | Benutzer bleibt im Feld, es wird kein Zeilenumbruch erstellt, es kommt ein Fehlersound
 
 
 ## Spezifisches Verhalten bei Windows
@@ -98,8 +98,8 @@ Für Windows gilt folgendes spezifisches Verhalten:
 | **Eingabe** | **Verhalten**
 |----|---|
 |Strg + Tab | Benutzer bleibt im Feld und es wird ein Tab erstellt.
-|Alt + Tab | Windows spezifisches Verhalten wechseln zur letzten Anwendung.
-|Win + Tab | Windows spezifisches Verhalten Übersicht aller offenen Fenster.
+|Alt + Tab | Windows spezifisches Verhalten: Wechseln zur letzten Anwendung.
+|Win + Tab | Windows spezifisches Verhalten: Übersicht aller offenen Fenster.
 
 
 #### Enter + Modifier:
@@ -134,7 +134,7 @@ Die KeyBindings sind so gelegt, dass dasselbe Verhalten gewährleistet ist, wie 
 | CR | Nächstes leeres Pflichtfeld wird selektiert oder es wird gespeichert
 | M1 + S | Speichern des aktuellen Datensatzes
 | M1 + N | Detail leeren
-| M1 + Z | Setzt die letzte Änderung im TexFeld zurück
+| M1 + Z | Setzt die letzte Änderung im Textfeld zurück
 
 
 #### Key-Bindings Grid im DetailPart
@@ -171,8 +171,7 @@ Später lädt er diese Suchkriterien und bearbeitet sie. Dabei speichert er dies
 Bezeichnung "Wochenstunden", sondern die Default-Suchkriterien.
 
 Um die bearbeiteten Suchkriterien wieder unter "Wochenstunden" zu speichern, betätigt der Benutzer SHIFT+M1+S und gibt "Wochenstunden" wieder als Bezeichnung an.
-Über der Eingabe ändert sich der Text zu "Sucheinstellung besteht und wird überschrieben". Dies weist darauf hin, dass es schon ein Suchkriterium mit der Bezeichnung
-existiert und dieses überschrieben wird.
+Über der Eingabe ändert sich der Text zu "Sucheinstellung besteht und wird überschrieben". Dies weist darauf hin, dass es schon ein Suchkriterium mit der Bezeichnung existiert und dieses überschrieben wird.
 
 ![](img/example_searchcriteria_existing.png)
 
