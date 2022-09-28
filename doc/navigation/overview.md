@@ -12,11 +12,11 @@ Enter-Verhaltens in einem Handler, können wir diesen von verschiedenen Stellen 
 
 ## Preferences die das Tab- und Enter-Verhalten beeinflussen
 
-EnterSelectsFirstRequired (ESFR) - Genaue Beschreibung hier: [EnterSelectsFirstRequired](https://github.com/minova-afis/aero.minova.rcp/wiki/Einstellungen-der-Anwendung-(Preferences)#nach-dem-betätigen-von-enter-wird-das-erste-erforderliche-feld-selektiert)
+EnterSelectsFirstRequired (ESFR) - Genaue Beschreibung hier: [EnterSelectsFirstRequired](/preferences/overview.md#nach-dem-betätigen-von-enter-wird-das-erste-erforderliche-feld-selektiert)
 
-LookupEnterSelectsNextRequired (LESNR) - Genaue Beschreibung hier: [LookupEnterSelectsNextRequired](https://github.com/minova-afis/aero.minova.rcp/wiki/Einstellungen-der-Anwendung-(Preferences)#das-betätigen-von-enter-in-einer-auswahlbox-selektiert-das-nächste-erforderliche-feld)
+LookupEnterSelectsNextRequired (LESNR) - Genaue Beschreibung hier: [LookupEnterSelectsNextRequired](/preferences/overview.md#das-betätigen-von-enter-in-einer-auswahlbox-selektiert-das-nächste-erforderliche-feld)
 
-SelectAllControls (SAC) - Genaue Beschreibung hier: [SelectAllControls](https://github.com/minova-afis/aero.minova.rcp/wiki/Einstellungen-der-Anwendung-(Preferences)#mit-tab-werden-alle-möglichen-felder-selektiert-inkl-registerkarte-und-schaltflächen)
+SelectAllControls (SAC) - Genaue Beschreibung hier: [SelectAllControls](/preferences/overview.md#mit-tab-werden-alle-möglichen-felder-selektiert-inkl-registerkarte-und-schaltflächen)
 
 ## Tab-Verhalten
 
