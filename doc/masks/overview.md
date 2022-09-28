@@ -13,7 +13,7 @@ Um die Ausgabe im Index einzugrenzen oder zu filtern, wird der Suchbereich genut
 
 #### 2. Indexbereich
 
-Der Index besteht aus einer Tabelle, die mit den Datensätzen der Maske gefüllt wird. Es können bis zu 1000 Datensätze ausgegeben werden. Die Ausgabe kann durch die [Suche](#1-suche) gefiltert und damit eingegrenzt werden. Die Spalten der Tabelle entsprechen den wichtigsten Feldern des Detailbereiches. 
+Der Index besteht aus einer Tabelle, die mit den Datensätzen der Maske gefüllt wird. Es können bis zu 1000 Datensätze ausgegeben werden. Die Ausgabe kann durch die [Suche](#1-suchbereich) gefiltert und damit eingegrenzt werden. Die Spalten der Tabelle entsprechen den wichtigsten Feldern des Detailbereiches. 
 
 Die letzten beiden Spalten jeder Maske entsprechen "Letzte Änderung" und "Letzter Benutzer". Die Spalte "Letzte Änderung" enthält das Datum, an dem die letzte Änderung durchgeführt wurde. In der Spalte "Letzter Benutzer" wird der Name, des Benutzers angezeigt, der die letzte Änderung durchgeführt hat. Dies dient zur besseren Nachverfolgung von Änderungen an Datensätzen.
 
