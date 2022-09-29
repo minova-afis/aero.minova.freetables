@@ -6,7 +6,7 @@ Aufgeteilt ist eine Maske in drei Bereiche. Im folgenden Beispiel handelt es sic
 
 #### 1. Suchbereich
 
-Um die Ausgabe im Index einzugrenzen oder zu filtern, wird der Suchbereich genutzt. Dieser enthält eine identische Tabelle zum jeweiligen Index. Für die Filterung können nun Werte in die Spalten eingegeben werden. Bei der nächsten Aktualisierung des Index, sind nur noch Datensätze sichtbar, die die passenden Werte aus der Suche in den entsprechenden Spalten enthalten. Die Eingabe der Werte lässt sich durch spezielle [Platzhalter und Kürzel]() unterstützen. Die direkte Anzeige der Daten ohne die Eingabe eines oder mehrerer Suchkriterien hat zur Folge, dass der komplette Datenbestand geladen wird.
+Um die Ausgabe im Index einzugrenzen oder zu filtern, wird der Suchbereich genutzt. Dieser enthält eine identische Tabelle zum jeweiligen Index. Für die Filterung können nun Werte in die Spalten eingegeben werden. Bei der nächsten Aktualisierung des Index, sind nur noch Datensätze sichtbar, die die passenden Werte aus der Suche in den entsprechenden Spalten enthalten. Die Eingabe der Werte lässt sich durch spezielle [Platzhalter und Kürzel](wildcards.md)) unterstützen. Die direkte Anzeige der Daten ohne die Eingabe eines oder mehrerer Suchkriterien hat zur Folge, dass der komplette Datenbestand geladen wird.
 
 ![](img/customer_example_search_marked.png)
 
