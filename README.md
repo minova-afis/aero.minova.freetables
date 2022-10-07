@@ -8,3 +8,7 @@ Das Benutzerhandbuch enthält eine ausführliche Dokumentation der Handhabung ei
 3. [Navigation](doc/navigation/overview.md) ( Wie navigiere ich durch die Anwendung? Welche Tastenkombinationen habe ich? )
 3. [Einstellungen](doc/preferences/overview.md) ( Was kann ich einstellen und wie kann ich die Anwendung beeinflussen? )
 4. [Login](doc/authorization/overview.md) ( Wie authentifiziere ich mich und was sind Profile?)
+
+### Nice to know:
+
+* [Platzhalter und Kürzel](doc/masks/wildcards.md)
