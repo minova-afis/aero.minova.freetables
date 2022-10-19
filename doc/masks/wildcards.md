@@ -1,6 +1,6 @@
 # Platzhalter und Kürzel
 
-Um die Bedienung von den verschiedenen Felder zu vereifachen, nutzen wir Platzhalter und Kürzel. Diese machen schnelle und genaue Eingaben einfach. Nachfolgend werden die verschiedenen Felder und ihre Kürzel aufgelistet:
+Um die Bedienung von den verschiedenen Feldern zu vereifachen, nutzen wir Platzhalter und Kürzel. Diese machen schnelle und genaue Eingaben einfach. Nachfolgend werden die verschiedenen Felder und ihre Kürzel aufgelistet:
 
 ## Datums- und Zeitfelder
 
@@ -25,7 +25,7 @@ Um die Bedienung von den verschiedenen Felder zu vereifachen, nutzen wir Platzha
 | `--` | vorgestern
 | `---` | ...
 
-Um einfach Tage, Wochen, Monate oder Jahre an ein bestimmtes Datum zu addieren oder zu subthrahieren können folgende Kürzel und +/- Kombinationen verwendet werden.
+Um einfach Tage, Wochen, Monate oder Jahre an ein bestimmtes Datum zu addieren oder zu subtrahieren, können folgende Kürzel und +/- Kombinationen verwendet werden.
 
 | Kürzel | Bedeutung
 |---|---
@@ -62,7 +62,7 @@ Um einfach Tage, Wochen, Monate oder Jahre an ein bestimmtes Datum zu addieren o
 | `--` | jetzt minus 2 Stunden
 | `---` | ...
 
-Um einfach Minuten oder Stunden an ein bestimmte Uhrzeit zu addieren oder zu subtrahieren können folgende Kürzel und +/- Kombinationen verwendet werden.
+Um einfach Minuten oder Stunden an eine bestimmte Uhrzeit zu addieren oder zu subtrahieren können folgende Kürzel und +/- Kombinationen verwendet werden.
 
 | Kürzel | Bedeutung
 |---|---
@@ -78,7 +78,7 @@ Um einfach Minuten oder Stunden an ein bestimmte Uhrzeit zu addieren oder zu sub
 
 #### "Datum / Zeit" Felder
 
-In einem "Datum / Zeit" Feld werden das Datum und die Zeit gleichzeitig eingegeben. Diese werden entweder durch ein Leerzeichen oder einen Stern getrennt. Im Gesamten gelten für "Datum / Zeit" Felder die selben Kriterien und Abkürzungen, wie für die Datums- und Zeitfelder im einzelnen.
+In einem "Datum / Zeit" Feld werden das Datum und die Zeit gleichzeitig eingegeben. Diese werden entweder durch ein Leerzeichen oder einen Stern getrennt. Im Gesamten gelten für "Datum / Zeit" Felder die selben Kriterien und Abkürzungen, wie für die Datums- und Zeitfelder im Einzelnen.
 
 Sonderregelungen für die "Datum / Zeit" Felder sind:
 
@@ -92,7 +92,7 @@ Sonderregelungen für die "Datum / Zeit" Felder sind:
 
 ## Suchbereich
 
-In die Spalten in der Suche können neben direkten Werten auch Platzhalter und Vergleichszeichen eingegeben werden. So ist es möglich Zeiträume einzugränzen, statt einem genaue Zeitpunkt oder mehrere Ergebnis die mit den selben Begriff starten.
+In die Spalten in der Suche können neben direkten Werten auch Platzhalter und Vergleichszeichen eingegeben werden. So ist es möglich, Zeiträume einzugrenzen oder mehrere Ergebnisse anzuzeigen, die mit dem selben Begriff/Buchstaben beginnen.
 
 #### Zahlenfelder
 Bei einem Zahlenfeld können folgende Operatoren zum Einsatz kommen: `>`, `<`, `=`, `>=`, `\<=`, `<>`, `null`, `!null`.
