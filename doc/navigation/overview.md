@@ -12,17 +12,17 @@ Enter-Verhaltens in einem Handler, können wir diesen von verschiedenen Stellen 
 
 ## Preferences die das Tab- und Enter-Verhalten beeinflussen
 
-EnterSelectsFirstRequired (ESFR) - Genaue Beschreibung hier: [EnterSelectsFirstRequired](/preferences/overview.md#nach-dem-betätigen-von-enter-wird-das-erste-erforderliche-feld-selektiert)
+EnterSelectsFirstRequired (ESFR) - Genaue Beschreibung hier: [EnterSelectsFirstRequired](../preferences/overview.md#nach-dem-betätigen-von-enter-wird-das-erste-erforderliche-feld-selektiert)
 
-LookupEnterSelectsNextRequired (LESNR) - Genaue Beschreibung hier: [LookupEnterSelectsNextRequired](/preferences/overview.md#das-betätigen-von-enter-in-einer-auswahlbox-selektiert-das-nächste-erforderliche-feld)
+LookupEnterSelectsNextRequired (LESNR) - Genaue Beschreibung hier: [LookupEnterSelectsNextRequired](../preferences/overview.md#das-betätigen-von-enter-in-einer-auswahlbox-selektiert-das-nächste-erforderliche-feld)
 
-SelectAllControls (SAC) - Genaue Beschreibung hier: [SelectAllControls](/preferences/overview.md#mit-tab-werden-alle-möglichen-felder-selektiert-inkl-registerkarte-und-schaltflächen)
+SelectAllControls (SAC) - Genaue Beschreibung hier: [SelectAllControls](../preferences/overview.md#mit-tab-werden-alle-möglichen-felder-selektiert-inkl-registerkarte-und-schaltflächen)
 
 ## Tab-Verhalten
 
 Da das Tab-Verhalten durch Eclipse vorgegeben ist, müssen wir nur noch die Tab-Reihenfolge bestimmen. Folgende Bedingungen gelten für die Tab-Reihenfolge:
 
-- Dabei werden in den Sections nur die Felder in die Tab-Liste hinzugefügt, die nicht Read Only sind.
+- Dabei werden in den Sections nur die Felder in die Tab-Liste hinzugefügt, die nicht read only sind.
 - Wenn die Preference SelectAllControls gesetzt ist, werden die Controls des Detail Parts ebenfalls der Tab-Reihenfolge hinzugefügt. Dies ermöglicht die Selektion der Toolbar und der Sections.
 - Bei einem Grid selektiert Tab nur das erste Feld und springt danach ins nächste Element (Control/Field). Tab selektiert nicht die nächste Zelle aus der Tabelle. Innerhalb der Tabelle muss mit den Pfeiltasten navigiert werden.
 
@@ -43,7 +43,7 @@ betätigt, wird bei SAC = false das letzte Feld selektiert und bei SAC = true di
 
 Die Eingabe von Enter wird mit einem Key-Binding im DetailPart erkannt und führt daraufhin die entsprechenden Handler aus. Dabei wir wie anschließend beschrieben vorgegangen:
 
-- In der execute Methode des TraverseEnterHandlers holen wir uns zuerst das selektierte Feld. Bei einem LookupField schließen wir, falls offen, das PopupMenu.
+- In der execute-Methode des TraverseEnterHandlers holen wir uns zuerst das selektierte Feld. Bei einem LookupField schließen wir, falls offen, das PopupMenu.
 - Danach wird das nächste leere Pflichtfeld, mit leeren WrittenText, ermittelt.
 - Wenn ein Feld gefunden wurde, wird es fokussiert. Falls kein Feld gefunden wurde, beleibt der Benutzer im gleichen Feld.
 - Nach der Ermittlung wird geprüft, ob der SaveDetailHandler enabled ist.
