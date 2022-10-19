@@ -2,7 +2,7 @@
 
 Um eine FreeTables Anwendung verwenden zu können, wird der WFC Client benötigt. Das WFC ist eine universale Software, die für mehrere Minova Produkte verwendet werden kann. So hat man auf alle seine Produkte Zugriff, von einer Anwendung aus. 
 
-Um zwischen den Produkten zu unterscheiden, werden Workspaces verwendet. Die Kofiguration eines Produktes liegt nämlich auf einem Server. Mit welchem Server die Verbindung hergestellt werden soll wird beim Login im Feld Connection String festgelegt. Die Felder Username und Password müssen dann entsprechend die Benutzer Logindaten für den eingetragenen Server enthalten.
+Um zwischen den Produkten zu unterscheiden, werden Workspaces verwendet. Die Kofiguration eines Produktes liegt nämlich auf einem Server. Mit welchem Server die Verbindung hergestellt werden soll wird beim Login im Feld "Connection String" festgelegt. Die Felder Username und Password müssen dann entsprechend die Benutzer-Login-Daten für den eingetragenen Server enthalten.
 
 ![](img/login_dialog.png)
 
