@@ -12,7 +12,7 @@ Um die Eingabe der Zugangsdaten nicht bei jedem Start zu wiederholen, können di
 
 Soll nun nur ein bestimmtes Profile beim Start direkt verwendet werden, kann der Haken bei "Default" gesetzt werden, wenn das entsprechende Profil selektiert ist. Dies sorgt nun dafür, dass beim Start der Anwendung die Anmeldung auf das "Default" Profil ausgeführt wird und statt dem Login Fenster, sich die Anwendung öffnet.
 
-Das "Default" Profil kann in den Einstellungen unter [Standard Workspace](/preferences/overview.md#standard-workspace) zurückgesetzt werden. 
+Das "Default" Profil kann in den Einstellungen unter [Standard Workspace](../preferences/overview.md#standard-workspace) zurückgesetzt werden. 
 
-Ein Profil enthält immer einen Workspace. Dieser ist im Benutzerverzeichnis zu finden oder über die Einstellung [Aktueller Workspace Ordner](/preferences/overview.md#aktueller-workspace-ordner). An dieser Stelle kann auch der Workspace gelöscht werden.
+Ein Profil enthält immer einen Workspace. Dieser ist im Benutzerverzeichnis zu finden oder über die Einstellung [Aktueller Workspace Ordner](../preferences/overview.md#aktueller-workspace-ordner). An dieser Stelle kann auch der Workspace gelöscht werden.
 Wird der Workspace gelöscht, bleibt das Profile trotzdem bestehen.
