@@ -2,7 +2,7 @@
 
 ## Tab- und Enter-Verhalten
 
-Bei der Umsetzung des Tab-Verhaltens verwenden wir das Verhalten, das Eclipse schon standardmäßig implementiert hat. Das Enter-Verhalten wird in einem Handler mit Key Binding umgesetzt.
+Bei der Umsetzung des Tab-Verhaltens verwenden wir das Verhalten, das Eclipse schon standardmäßig implementiert hat. Das Enter-Verhalten wird in einem Handler mit Key-Binding umgesetzt.
 Wir haben uns aus folgenden Gründen gegen den TraverseListener entschieden:
 
 - Wir möchten dem Benutzer ein für ihn gewohntes Verhalten bieten, er soll sich nicht umgewöhnen müssen und es trägt zu einer einfacheren Bedienung der Anwendung bei.
