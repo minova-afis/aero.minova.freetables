@@ -12,7 +12,7 @@ Dokumentation der Standard-Einstellungen für die Anwendung, die nicht spezifisc
 
 #### Standard Workspace
 
-Zeigt das eingestellte Standard Workspace an und ermöglicht dieses zurückzusetzen. Das standard Workspace ist das Profile das automatisch beim Start der Anwendung geladen werden soll.
+Zeigt das eingestellte Standard Workspace an und ermöglicht dieses zurückzusetzen. Das Standard-Workspace ist das Profil das automatisch beim Start der Anwendung geladen werden soll.
 
 #### Aktueller Workspace-Ordner
 
@@ -59,7 +59,7 @@ Position nach dem Betätigen von ENTER mit Einstellung ist nicht gesetzt:
 
 #### Das Betätigen von Enter in einer Auswahlbox selektiert das nächste erforderliche Feld
 
-Für Auswahlboxen (Feld mit kleinem Pfeil und einer Auswahl) kann ein gesondertes Verhalten eingestellt werden. So wird nach einer Auswahl mit Enter entweder das nächste Pflichtfeld selektiert oder der Benutzer belibt im Feld stehen.
+Für Auswahlboxen (Feld mit kleinem Pfeil und einer Auswahl) kann ein gesondertes Verhalten eingestellt werden. So wird nach einer Auswahl mit Enter entweder das nächste Pflichtfeld selektiert oder der Benutzer bleibt im Feld stehen.
 
 Position vor dem Betätigen von ENTER in der Auswahlbox:
 
