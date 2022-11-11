@@ -30,5 +30,8 @@ h1 {
 
 .site-header {
   background-color: #f7bc00 !important;
-  position: relative;
+}
+
+.grid {
+  display: grid;
 }
