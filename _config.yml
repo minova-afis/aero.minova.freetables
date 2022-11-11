@@ -1,11 +1,9 @@
-content: https://github.com/minova-afis/aero.minova.freetables/blob/main/README.md
-
 # Files to excludes from your website
 exclude:
   - .gitignore
   - Changelog.md
   - doc
-source: .
-remote_theme: pages-themes/hacker@v0.2.0
-plugins:
-  - jekyll-remote-theme # add this line to the plugins list if you already have one
+theme: minima
+#remote_theme: pages-themes/hacker@v0.2.0
+#plugins:
+#- jekyll-remote-theme # add this line to the plugins list if you already have one

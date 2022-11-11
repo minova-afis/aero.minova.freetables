@@ -1,0 +1,36 @@
+@import "minima";
+* {
+  background-color: white;
+}
+body {
+  font-family: "Lato", sans-serif;
+  margin: auto;
+}
+
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.site-nav {
+  display: none;
+}
+.site-title {
+  font-size: x-large;
+  display: none;
+}
+.page-heading {
+  display: none;
+}
+.page-content {
+  margin: auto;
+  width: 60%;
+}
+
+.home {
+  margin: auto;
+  color: #4e4c4f;
+}
+
+.site-header {
+  background-color: #f7bc00 !important;
+  position: relative;
+}
