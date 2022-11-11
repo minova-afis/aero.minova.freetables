@@ -29,9 +29,13 @@ h1 {
 }
 
 .site-header {
-  background-color: #f7bc00 !important;
+  background-color: white !important;
 }
 
 .grid {
   display: grid;
+}
+
+.col {
+  position: inline;
 }
