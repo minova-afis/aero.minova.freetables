@@ -6,9 +6,16 @@
     {%- include header.html -%}
     <main class="page-content" aria-label="Content">
       <div class="grid">
-        <div class="row"><div class="col"></div></div>
+        <div class="row">
+          <img
+            alt="minova-logo"
+            src="{{site.baseurl}}/docs/assets/images/minova-o.png"
+          />
+        </div>
+        <div>{{ content }}</div>
       </div>
-      <div class="wrapper">{{ content }}</div>
+
+      <div class="wrapper"></div>
     </main>
   </body>
 </html>
