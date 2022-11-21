@@ -4,6 +4,7 @@ body {
   font-family: "Lato", sans-serif;
   margin: auto;
   height: 100vh;
+  background-color: white;
 }
 
 h1 {
@@ -42,7 +43,7 @@ h1 {
 }
 
 footer {
-  background-color: #454345;
+  background-color: #454345 !important;
   width: 100vw;
   height: 5vh;
   position: absolute;
@@ -50,7 +51,7 @@ footer {
 }
 
 .header {
-  background-color: #454345;
+  background-color: #454345 !important;
   width: 100vw;
   height: 5vh;
 }
