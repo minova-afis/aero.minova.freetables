@@ -1,10 +1,15 @@
 <header class="site-header">
   <div class="header"></div>
-  <img
-    class="minova-logo"
-    alt="minova-logo"
-    src="{{site.baseurl}}/docs/assets/images/minova-logo.png"
-  />
+  <div class="grid">
+    <div class="col"></div>
+    <div class="col">
+      <img
+        class="minova-logo"
+        alt="minova-logo"
+        src="{{site.baseurl}}/docs/assets/images/minova-logo.png"
+      />
+    </div>
+  </div>
 
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%} {%- assign
