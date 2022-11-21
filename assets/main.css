@@ -3,8 +3,9 @@
 body {
   font-family: "Lato", sans-serif;
   margin: auto;
-  height: 100vh;
+  /*height: 100vh; */
   background-color: white;
+  position: relative;
 }
 
 h1 {
