@@ -3,5 +3,11 @@ theme: minima
 exclude:
   - Changelog.md
 #remote_theme: pages-themes/hacker@v0.2.0
-#plugins:
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
 #- jekyll-remote-theme # add this line to the plugins list if you already have one
