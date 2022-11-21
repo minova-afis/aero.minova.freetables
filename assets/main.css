@@ -39,3 +39,13 @@ h1 {
 .col {
   position: inline;
 }
+
+footer {
+  background-color: #454345;
+}
+
+.header {
+  background-color: #454345;
+  width: 100vw;
+  height: 10vh;
+}
