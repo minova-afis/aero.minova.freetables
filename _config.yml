@@ -2,10 +2,10 @@
 theme: minima
 exclude:
   - Changelog.md
-  plugins:
+plugins:
   - jekyll-titles-from-headings
 titles_from_headings:
-  - enabled:     false
+  - enabled: false
   - strip_title: false
   - collections: false
 #remote_theme: pages-themes/hacker@v0.2.0
