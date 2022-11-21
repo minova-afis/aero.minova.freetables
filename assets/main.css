@@ -42,10 +42,16 @@ h1 {
 
 footer {
   background-color: #454345;
+  width: 100vw;
+  height: 5vh;
 }
 
 .header {
   background-color: #454345;
   width: 100vw;
-  height: 10vh;
+  height: 5vh;
+}
+
+.minova-logo {
+  max-height: 100px;
 }
