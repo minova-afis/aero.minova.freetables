@@ -45,6 +45,8 @@ footer {
   background-color: #454345;
   width: 100vw;
   height: 5vh;
+  position: absolute;
+  bottom: 0;
 }
 
 .header {
