@@ -2,6 +2,6 @@
 
 source "https://rubygems.org"
 
-gem 'jekyll-titles-from-headings'
+#gem 'jekyll-titles-from-headings'
 
 # gem "rails"
