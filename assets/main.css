@@ -69,5 +69,5 @@ footer {
 }
 
 .post-title {
-  display: none;
+  display: none !important;
 }
