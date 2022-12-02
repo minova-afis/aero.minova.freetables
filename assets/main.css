@@ -6,7 +6,7 @@ body {
   min-height: 100vh;
   background-color: white;
   position: relative;
-  margin-bottom: 50px;
+  padding-bottom: 100px;
 }
 
 h1 {
