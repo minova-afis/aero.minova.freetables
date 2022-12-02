@@ -59,11 +59,15 @@ footer {
 }
 
 .minova-logo {
-  margin: 20px 0 20px 40px;
+  margin: 20px 0 20px 0px;
   max-height: 5vh;
 }
 
 .minova-logo-container {
   width: 60%;
   margin: auto;
+}
+
+.post-title {
+  display: none;
 }
