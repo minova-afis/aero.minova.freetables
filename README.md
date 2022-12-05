@@ -14,3 +14,13 @@ Das Benutzerhandbuch enthält eine ausführliche Dokumentation der Handhabung ei
 * [Platzhalter und Kürzel](doc/masks/wildcards.md)
 
 * [Test](doc/test.html)
+
+This is a regular paragraph.
+
+<table>
+    <tr>
+        <td>Foo</td>
+    </tr>
+</table>
+
+This is another regular paragraph.
