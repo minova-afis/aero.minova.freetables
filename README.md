@@ -12,3 +12,5 @@ Das Benutzerhandbuch enthält eine ausführliche Dokumentation der Handhabung ei
 ### Nice to know:
 
 * [Platzhalter und Kürzel](doc/masks/wildcards.md)
+
+* [Test](doc/test.html)
