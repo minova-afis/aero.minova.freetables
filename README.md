@@ -15,5 +15,3 @@ Das Benutzerhandbuch enthält eine ausführliche Dokumentation der Handhabung ei
 
 * [Test](doc/test.html)
 
-
-<input type="text" />
