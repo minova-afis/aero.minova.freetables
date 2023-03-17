@@ -1,0 +1,75 @@
+@import "minima";
+
+body {
+  font-family: "Lato", sans-serif;
+  margin: auto;
+  min-height: 100vh;
+  background-color: white;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.site-nav {
+  display: none;
+}
+.site-title {
+  font-size: x-large;
+  display: none;
+}
+.page-heading {
+  display: none;
+}
+.page-content {
+  margin: auto;
+  width: 60%;
+}
+
+.home {
+  margin: auto;
+  color: #4e4c4f;
+}
+
+.site-header {
+  background-color: white !important;
+}
+
+.grid {
+  display: grid;
+}
+
+.col {
+  position: inline;
+  color: #4e4c4f;
+}
+
+footer {
+  background-color: #454345 !important;
+  width: 100%;
+  height: 5vh;
+  position: absolute;
+  bottom: 0;
+  margin-top: 50px;
+}
+
+.header {
+  background-color: #454345 !important;
+  width: 100%;
+  height: 5vh;
+}
+
+.minova-logo {
+  margin: 20px 0 20px 0px;
+  max-height: 5vh;
+}
+
+.minova-logo-container {
+  width: 60%;
+  margin: auto;
+}
+
+.post-title {
+  display: none !important;
+}

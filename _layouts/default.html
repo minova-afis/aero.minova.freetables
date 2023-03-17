@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang='{{ page.lang | default: site.lang | default: "en" }}'>
+  {%- include head.html -%}
+
+  <body>
+    {%- include header.html -%}
+    <main class="page-content" aria-label="Content">
+      <div class="grid">
+        <div class="col">
+          <img
+            style="display: none"
+            alt="minova-logo"
+            src="{{site.baseurl}}/docs/assets/images/minova-o.png"
+          />
+        </div>
+        <div class="col">{{ content }}</div>
+      </div>
+
+      <div class="wrapper"></div>
+    </main>
+    <footer></footer>
+  </body>
+</html>

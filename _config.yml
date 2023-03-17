@@ -1,20 +1,15 @@
-# Jekyll main configuration file
-# See https://jekyllrb.com/docs/configuration/ to further customize this file
-# Defaults settings https://jekyllrb.com/docs/configuration/#default-configuration
-
-title: FreeTables
-description: "A short description of your project"
-
-url: # (optional) https://example.com, defaults to http://localhost:4000 in development
-
-permalink: date # how your URLs are built, see https://jekyllrb.com/docs/permalinks/#builtinpermalinkstyles
-
-# timezone: America/Los_Angeles # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-# theme: minima
-# look for themes on https://github.com/topics/jekyll-theme and https://rubygems.org/search?utf8=%E2%9C%93&query=jekyll-theme
-
 # Files to excludes from your website
-# exclude:
-# - .gitignore
-# - CNAME
+theme: minima
+post-title: ""
+exclude:
+  - Changelog.md
+#remote_theme: pages-themes/hacker@v0.2.0
+title: null
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+#- jekyll-remote-theme # add this line to the plugins list if you already have one
