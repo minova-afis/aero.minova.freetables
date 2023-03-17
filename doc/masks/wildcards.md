@@ -39,9 +39,9 @@ Um einfach Tage, Wochen, Monate oder Jahre an ein bestimmtes Datum zu addieren o
 | Eingabe | Wert
 |---|---
 | `0+2w` | heute + 14 Tage (2 Wochen)
-| `1+1m-1t` | der letzte des aktuellen Monats (m = Monat, t = Tag)
+| `1+1m-1d` | der letzte des aktuellen Monats (m = Monat, d = Tag)
 | `1+1m-` | wenn man - und + ohne Ziffer am Ende hat, kann man es als Tage interpretieren. Also auch der letzte des Monats.
-| `11+1j-` | Der letzte Tag des Jahres
+| `11+1y-` | Der letzte Tag des Jahres
 | `11+2m-` | der letzte Tag im Februar im aktuellen Jahr
 
 
