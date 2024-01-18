@@ -13,3 +13,4 @@ Das Benutzerhandbuch enthält eine ausführliche Dokumentation der Handhabung ei
 
 * [Platzhalter und Kürzel](doc/masks/wildcards.md)
 
+### Zum bearbeiten [hier](https://github.com/minova-afis/aero.minova.freetables/blob/main/README.md)
